@@ -1,27 +1,10 @@
 header {
   background: lightgray;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
 }
-
-/* .headerNav {
-  display: flex;
-  flex-direction: row;
-  border: solid 1px black;
-}
-
-.headerLinks {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0rem 5rem;
-}
-
-h1 {
-  font-size: large;
-} */
 
 /* Style the navigation menu */
 .topnav {
@@ -32,7 +15,7 @@ h1 {
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+.topnav .myLinks {
   display: none;
 }
 
@@ -56,25 +39,25 @@ h1 {
   width: auto;
 }
 
-/* Style the active link (or home/logo) */
-.active {
+/* Style the active link to dagensbok */
+.h1HeaderLink {
   background-color: lightgray;
   color: black !important;
   text-align: left;
 }
 
-.h1Heading, .active {
+.h1Heading, .h1HeaderLink {
   font-size: 16pt !important;
 }
 
-
-
+.headerLinks:active {
+  background: lightgray;
+}
 
 /*Screens bigger than mobile - hide menuIcon and show desktop header.
-Consider adding another breakpoint for medium sized screens. Kolla läslistan*/
+Consider adding another breakpoint for medium sized screens. */
 
 @media screen and (min-width: 600px) {
-  .topnav img:not(:first-child) {display: none;}
   .topnav img.menuIcon {
     display: none;
   }
@@ -85,9 +68,17 @@ Consider adding another breakpoint for medium sized screens. Kolla läslistan*/
  }
 
  .myLinks {
-  display: flex;
+  display: flex !important;
   flex-direction: row;
   justify-content: space-evenly;
+ }
+
+ .headerLinks {
+  width: 100%;
+ }
+ .headerLinks:hover {
+  background: lightgray;
+  color: #333;
  }
 
  .h1Heading, .active {
