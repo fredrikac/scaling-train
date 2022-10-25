@@ -1,0 +1,25 @@
+Dagens bok frontend-utan-backend
+
+Hämta data från API - jobba med JSONplaceholder för tillfället
+- När ska vilken data hämtas?
+- Hantera state när anv klickar sig runt på sidan
+
+
+Design
+- Två-tre fonts: times new roman i brödtext, rubriker ?
+- Lightmode - ljusa nyanser
+
+- Responsiv - i mobilläge ska headerns länkar ligga i en utfällbar hamburger
+- I mobilläge ska endast den senaste recensionen synas
+- Det ska finnas knappar för att bläddra till tidigare recensioner. 
+- När man står på en tidigare recension ska det finnas knapp för att bläddra framåt. 
+
+
+Desktop 
+- i Desktopläge ska tidigare recensioner ligga i en lista till vänster om dagens recension
+
+
+URL för specifik recension: YYYY/MM//DD/titel
+URL för specifik recensent: /redaktionen/förnamn-efternamn
+
+
