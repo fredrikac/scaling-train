@@ -11,12 +11,13 @@ Design
 
 - Responsiv - i mobilläge ska headerns länkar ligga i en utfällbar hamburger
 - I mobilläge ska endast den senaste recensionen synas
-- Det ska finnas knappar för att bläddra till tidigare recensioner. 
-- När man står på en tidigare recension ska det finnas knapp för att bläddra framåt. 
-
+- Ovanför dagens recension ska det finnas en rubrik med veckodag och datum samt en knapp för att se tidigare recensioner
+- När man tittar på en äldre recension ska det även finnas en framåt-knapp 
+- Nedanför recensionstexten ska det finnas en faktaruta med utgivningsår etc
 
 Desktop 
 - i Desktopläge ska tidigare recensioner ligga i en lista till vänster om dagens recension
+- Faktarutan med utgivningsår ska ligga till höger om recensionstexten 
 
 
 URL för specifik recension: YYYY/MM//DD/titel

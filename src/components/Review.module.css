@@ -1,0 +1,29 @@
+.dateSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+}
+
+.dateSpan p {
+    padding: 0 1em;
+}
+
+.bookContainer {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1em;
+}
+
+.bookcover {
+    height: auto;
+    width: 6em;
+}
