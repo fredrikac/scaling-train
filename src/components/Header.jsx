@@ -18,12 +18,13 @@ const Header = () => {
     <div className={cx(s.topnav)}>
       <h1 className={s.h1Heading}><Link to="/" className={s.h1HeaderLink}>dagensbok.com</Link></h1>
       <nav id="myLinks" className={s.myLinks}>
-        <a className={s.headerLinks} href="">Hem</a>
-        <a className={s.headerLinks} href="">Krönikor</a>
-        <a className={s.headerLinks} href="">Intervjuer</a>
-        <a className={s.headerLinks} href="">FAQ</a>
-        <a className={s.headerLinks} href="">Redaktionen</a>
-        <a className={s.headerLinks} href="">Arkivet</a>
+        <Link className={s.headerLinks} to="/">Hem</Link>
+        <Link className={s.headerLinks} to="">Krönikor</Link>
+        <Link className={s.headerLinks} to="">Teman</Link>
+        <Link className={s.headerLinks} to="">Intervjuer</Link>
+        <Link className={s.headerLinks} to="">FAQ</Link>
+        <Link className={s.headerLinks} to="/redaktionen">Redaktionen</Link>
+        <Link className={s.headerLinks} to="">Arkivet</Link>
       </nav>
         <img src={menuIcon} className={s.menuIcon} onClick={toggleNavbar} alt='menu-hamburger'>
         </img>

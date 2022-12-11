@@ -1,5 +1,5 @@
 header {
-  background: lightgray;
+  background-color: #898D91;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,9 +9,9 @@ header {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
-  position: relative;
+  background-color: #898D91;
   width: 100%;
+  display: inline;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -21,7 +21,8 @@ header {
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: black;
+  background-color: #898D91;
   padding: 14px 16px;
   text-decoration: none;
   font-size: medium;
@@ -30,7 +31,7 @@ header {
 
 /* Style the hamburger menu */
 .topnav img.menuIcon {
-  background: lightgray;
+  background: #898D91;
   display: block;
   position: absolute;
   right: 0.5rem;
@@ -41,7 +42,7 @@ header {
 
 /* Style the active link to dagensbok */
 .h1HeaderLink {
-  background-color: lightgray;
+  background-color: #898D91;
   color: black !important;
   text-align: left;
 }
@@ -51,7 +52,7 @@ header {
 }
 
 .headerLinks:active {
-  background: lightgray;
+  background: #F1F1F3;
 }
 
 /*Screens bigger than mobile - hide menuIcon and show desktop header.

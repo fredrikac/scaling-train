@@ -1,12 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Review from "../components/Review";
+import Reviews from "../components/Reviews";
 
 const Start = () => {
   return (
     <>
     <Header />
-    <Review />
+    <Reviews />
     <Footer />
     </>
   )
