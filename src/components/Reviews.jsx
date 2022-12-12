@@ -5,9 +5,9 @@ const Reviews = () => {
   return (
     <div>
       <span className={s.dateSpan}>
-        <button>Bakåt</button>
+  
         <p>Veckodag datum</p>
-        <button>Framåt</button>
+
       </span>
       <Review />
     </div>

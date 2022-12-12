@@ -9,6 +9,7 @@ const EditorialStaff = () => {
   return (
     <>
       <Header />
+      <div className={s.pageWrapper}>
       <article className={s.container}>
         <h1>Redaktionen</h1>
         <div className={s.textContainer}>
@@ -45,7 +46,7 @@ const EditorialStaff = () => {
             skribents sida för att läsa mer om henne eller honom.
           </p>
         </div>
-
+    <div className={s.groupContainer}>
         <h3>Redaktionsgrupp</h3>
         <ul>
           <li>Ella Andrén, chefredaktör</li>
@@ -67,7 +68,9 @@ const EditorialStaff = () => {
           <li>Namn Namnsson</li>
           <li>Namn Namnsson</li>
         </ul>
+        </div>
       </article>
+      </div>
       <Footer />
     </>
   );

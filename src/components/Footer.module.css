@@ -28,7 +28,7 @@
   .footer {
     flex-direction: column;
     align-items: flex-start;
-    position: absolute;
+    position: relative;
     height: 7em;
     width: 100%;
   }
