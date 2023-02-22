@@ -1,4 +1,4 @@
-header {
+/* header {
   background-color: #898D91;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@ header {
   justify-content: space-between;
 }
 
-/* Style the navigation menu */
+Style the navigation menu 
 .topnav {
   overflow: hidden;
   background-color: #898D91;
@@ -14,12 +14,12 @@ header {
   display: inline;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
+ Hide the links inside the navigation menu (except for logo/home) 
 .topnav .myLinks {
   display: none;
 }
 
-/* Style navigation menu links */
+Style navigation menu links 
 .topnav a {
   color: black;
   background-color: #898D91;
@@ -29,7 +29,7 @@ header {
   display: block;
 }
 
-/* Style the hamburger menu */
+ Style the hamburger menu 
 .topnav img.menuIcon {
   background: #898D91;
   display: block;
@@ -40,7 +40,7 @@ header {
   width: auto;
 }
 
-/* Style the active link to dagensbok */
+ Style the active link to dagensbok 
 .h1HeaderLink {
   background-color: #898D91;
   color: black !important;
@@ -55,8 +55,8 @@ header {
   background: #F1F1F3;
 }
 
-/*Screens bigger than mobile - hide menuIcon and show desktop header.
-Consider adding another breakpoint for medium sized screens. */
+creens bigger than mobile - hide menuIcon and show desktop header.
+Consider adding another breakpoint for medium sized screens. 
 
 @media screen and (min-width: 600px) {
   .topnav img.menuIcon {
@@ -85,4 +85,4 @@ Consider adding another breakpoint for medium sized screens. */
  .h1Heading, .active {
   font-size: 24pt !important;
  }
-}
+} */

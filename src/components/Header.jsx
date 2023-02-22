@@ -1,34 +1,40 @@
-import s from './Header.module.css';
 import menuIcon from '../icons/menu.png';
-import cx from 'classnames';
+import searchIcon from '../icons/search.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const toggleNavbar = () => {
-    const x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-
   return (
-    <header>
-    <div className={cx(s.topnav)}>
-      <h1 className={s.h1Heading}><Link to="/" className={s.h1HeaderLink}>dagensbok.com</Link></h1>
-      <nav id="myLinks" className={s.myLinks}>
-        <Link className={s.headerLinks} to="/">Hem</Link>
-        <Link className={s.headerLinks} to="">Krönikor</Link>
-        <Link className={s.headerLinks} to="">Teman</Link>
-        <Link className={s.headerLinks} to="">Intervjuer</Link>
-        <Link className={s.headerLinks} to="">FAQ</Link>
-        <Link className={s.headerLinks} to="/redaktionen">Redaktionen</Link>
-        <Link className={s.headerLinks} to="">Arkivet</Link>
-      </nav>
-        <img src={menuIcon} className={s.menuIcon} onClick={toggleNavbar} alt='menu-hamburger'>
-        </img>
+    <header className='d-flex p-3 container-fluid border-bottom'>
+      <div className='d-flex align-items-center justify-content-center align-self-center justify-self-center'>
+        
+        <nav className='navbar-nav'>
+          <a className='dropdown d-flex bg-body-secondary rounded-circle p-2' href='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src={menuIcon} alt='menu-hamburger' height='15px' width='15px'>
+            </img>
+          </a>
+      
+          <ul class="dropdown-menu">
+            <li><Link className="dropdown-item" to="/">Hem</Link></li>
+            <li><Link className="dropdown-item" to="">Krönikor</Link></li>
+            <li><Link className="dropdown-item"to="">Teman</Link></li>
+            <li><Link className="dropdown-item" to="">Intervjuer</Link></li>
+            <li><Link className="dropdown-item" to="">FAQ</Link></li>
+            <li><Link className="dropdown-item" to="/redaktionen">Redaktionen</Link></li>
+            <li><Link className="dropdown-item" to="">Arkivet</Link></li>
+          </ul>
+        </nav>
       </div>
+
+      <h1 className='d-flex align-items-center justify-content-center vw-100'>
+        <Link className='text-decoration-none text-black' to="/" >DAGENSBOK.COM</Link>
+      </h1>
+
+      <div className='d-flex align-items-center justify-content-center align-self-center justify-self-center'>
+      <a className='dropdown d-flex justify-content-end bg-body-secondary rounded-circle p-2' href='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src={searchIcon} alt='search-icon' height='15px' width='15px' />
+      </a>
+      </div>
+
     </header>
   )
 }
