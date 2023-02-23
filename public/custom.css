@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;  */
+
+
+.bg-blue {
+    background-color: rgba(53, 107, 141, 0.4);
+}
+
+.bg-greyish-blue {
+    background-color: rgba(72, 96, 96, 0.2);
+}
+
+.bg-light-green {
+    background-color: rgba(120, 168, 120, 0.2);
+}
+
+.bg-sage-green {
+    background-color: rgba(96, 120, 96, 0.2);
+}
+
+.bg-yellow {
+    background-color: rgba(240, 168, 0, 0.2);
+}
+
+.bg-dusty-pink {
+    background-color: rgba(120, 48, 24, 0.2);
+}
+
+.bg-greige {
+    background-color: rgba(24, 24, 24, 0.2);
+}
+
+.text-color {
+    color: #4A4A4A;
+}
+
+.font-1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-2 {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+    color: #4A4A4A;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-links {
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+    color: #4A4A4A;
+}
+
+.title {
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+.sub-title {
+    font-weight: 400;
+}
+
+.date {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+span {
+    margin: 0;
+    height: 36px;
+}
+
+
+
+/*
+Från sketch: 
+Ljusblå: #356B8D - rgba(53, 107, 141, 0.4)
+Ljusgrå: #486060 - rgba(72, 96, 96, 1)
+Ljusgrön: #78A878 - rgba(120, 168, 120, 1)
+Ljusgrön2: #607860 - rgba(96, 120, 96, 1)
+Ljusgul: #F0A800 - rgba(240, 168, 0, 1)
+Ljusrosa: #783018 - rgba(120, 48, 24, 1)
+Ljusgrå2: #181818 - rgba(24, 24, 24, 1)
+/*
