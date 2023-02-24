@@ -43,13 +43,13 @@
     font-family: Helvetica, sans-serif;
 }
 
-p {
+p, li {
     font-family: Helvetica, sans-serif;
     font-size: small;
     color: #4A4A4A;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -75,12 +75,28 @@ h1, h2, h3 {
     font-size: small;
 }
 
+.bold {
+    font-weight: 600;
+}
+
 span {
     margin: 0;
     height: 36px;
 }
 
+.hs-book {
+    height: 225px;
+}
 
+.todays-title {
+    font-weight: 400;
+    font-size: large;
+}
+
+.book-card-title {
+    font-weight: 400;
+    font-size: medium;
+}
 
 /*
 Från sketch: 

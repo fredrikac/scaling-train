@@ -87,10 +87,10 @@ const Review = () => {
 
               <div className='col-12 p-2 d-flex flex-column'>
                 <p className='border-bottom'>Etiketter</p>
-                <div className='p-2 d-flex flex-row flex-wrap justify-content-start'>
-                  <p className='bg-greige rounded m-2 p-1'>Skönlitteratur</p>
-                  <p className='bg-greige rounded m-2 p-1'>Science-fiction</p>
-                  <p className='bg-greige rounded m-2 p-1'>Spänning</p>
+                <div className='d-flex flex-row flex-wrap justify-content-start'>
+                  <p className='bg-greige rounded mb-2 p-1 mx-1'>Skönlitteratur</p>
+                  <p className='bg-greige rounded mb-2 mx-1 p-1'>Science-fiction</p>
+                  <p className='bg-greige rounded mb-2 mx-1 p-1'>Spänning</p>
                 </div>
               </div>
             </div>
