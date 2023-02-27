@@ -2,33 +2,82 @@
 
 /* font-family: 'Montserrat', sans-serif;  */
 
-
-.bg-blue {
+/*blue*/
+.bg-0 {
     background-color: rgba(53, 107, 141, 0.4);
 }
 
-.bg-greyish-blue {
+/*blue2 */
+.bg-1 {
     background-color: rgba(72, 96, 96, 0.2);
 }
-
-.bg-light-green {
+/*green1*/
+.bg-2 {
     background-color: rgba(120, 168, 120, 0.2);
 }
-
-.bg-sage-green {
+/*green2*/
+.bg-3 {
     background-color: rgba(96, 120, 96, 0.2);
 }
-
-.bg-yellow {
+/*yellow1*/
+.bg-4 {
     background-color: rgba(240, 168, 0, 0.2);
 }
-
-.bg-dusty-pink {
+/*pink*/
+.bg-5 {
     background-color: rgba(120, 48, 24, 0.2);
 }
-
-.bg-greige {
+/*greige*/
+.bg-6 {
     background-color: rgba(24, 24, 24, 0.2);
+}
+/*yellow2*/
+.bg-7 {
+    background-color: rgba(240, 192, 0, 0.2);
+}
+/*blue3*/
+.bg-8 {
+    background-color: rgba(0, 56, 111, 0.2);
+}
+/*yellow4*/
+.bg-9 {
+    background-color: rgba(243, 216, 25, 0.2);
+}
+/*green3*/
+.bg-10 {
+    background-color: rgba(0, 156, 0, 0.2);
+}
+/*purple*/
+.bg-11 {
+   background-color: rgba(168, 77, 161, 0.2);
+}
+/*beige1*/
+.bg-12{
+    background-color: rgba(163, 124, 72, 0.2);
+}
+/*brown*/
+.bg-13 {
+    background-color: rgba(175, 121, 96, 0.2);
+}
+/*mustard*/
+.bg-14 {
+    background-color: rgba(203, 165, 0, 0.2);
+}
+/*blue4*/
+.bg-15 {
+    background-color: rgba(0, 130, 174, 0.2);
+}
+/*beige2*/
+.bg-16 {
+    background-color: rgba(215, 201, 184, 0.2);
+}
+/*beige3*/
+.bg-17 {
+    background-color: rgba(185, 165, 167, 0.2);
+}
+/*nearly-white*/
+.bg-18 {
+    background-color: rgba(254, 251, 242, 0.2);
 }
 
 .text-color {

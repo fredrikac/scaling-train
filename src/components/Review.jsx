@@ -1,4 +1,4 @@
-import img from "../images/9781250236210_200x_a-psalm-for-the-wild-built.jpeg";
+import img from "../assets/9781250236210_200x_a-psalm-for-the-wild-built.jpeg";
 
 const Review = () => {
   return (

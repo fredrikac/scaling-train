@@ -1,5 +1,5 @@
-import menuIcon from '../icons/menu.png';
-import searchIcon from '../icons/search.png';
+import menuIcon from '../assets/menu.png';
+import searchIcon from '../assets/search.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
             </img>
           </a>
       
-          <ul class="dropdown-menu">
+          <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/">Hem</Link></li>
             <li><Link className="dropdown-item" to="">Krönikor</Link></li>
             <li><Link className="dropdown-item"to="">Teman</Link></li>

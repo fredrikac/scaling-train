@@ -6,18 +6,7 @@ Hämta data från API - jobba med JSONplaceholder för tillfället
 
 
 Design
-- Två-tre fonts: times new roman i brödtext, rubriker ?
-- Lightmode - ljusa nyanser
-
-- Responsiv - i mobilläge ska headerns länkar ligga i en utfällbar hamburger
-- I mobilläge ska endast den senaste recensionen synas
-- Ovanför dagens recension ska det finnas en rubrik med veckodag och datum samt en knapp för att se tidigare recensioner
-- När man tittar på en äldre recension ska det även finnas en framåt-knapp 
-- Nedanför recensionstexten ska det finnas en faktaruta med utgivningsår etc
-
-Desktop 
-- i Desktopläge ska tidigare recensioner ligga i en lista till vänster om dagens recension
-- Faktarutan med utgivningsår ska ligga till höger om recensionstexten 
+- https://www.sketch.com/s/4ed7ffab-cfbc-4d66-b944-57d22b8c5c15
 
 
 URL för specifik recension: YYYY/MM//DD/titel
@@ -25,13 +14,23 @@ URL för specifik recensent: /redaktionen/förnamn-efternamn
 
 
 //Att göra: 
-1. Skapa dummy-data och lägg i JSON-fil ELLER sätt upp redux och hämta placeholder-data. 
-- Dummy-data för redaktionen och placeholder-data för recensioner?
-2. Leta fram font. Klassisk serif font för recensioner
-3. Färgsätt litegrann så det är något att visa
-4. Skapa pages för FAQ, Krönikor, Intervjuer och Arkivet. Krönikor och intervjuer bör kunna se ganska lika ut.
-5. Fundera över om recensionerna ska ligga löpande redan på startsidan eller om det ska finnas 1 (den senaste), 
-och att anv. får klicka sig fram till nästa? En klassisk Visa mer-lösning?
-6. Se över routing och se till så att alla recensioner får rätt url. 
-7. Lägg till media-queries för tablet & desktop. Använd bibliotek?
-8. Gemensam styling för containers, wrappers, h1 i App.css?
+Skapa dummy-data och lägg i JSON-fil ELLER sätt upp redux och hämta placeholder-data. 
+
+Skapa pages för FAQ, Krönikor, Intervjuer och Arkivet. Krönikor och intervjuer bör kunna se ganska lika ut.
+
+Se över routing och se till så att alla recensioner får rätt url. 
+
+Bryt isär startFeed i komponenter. 
+ - BookCard som OM det är dagens datum även visar lite text, ANNARS visar bara bild, titel, författare och recensent.
+ Det kanske inte ska vara dagens datum, utan det datum som är närmast dagens (så att den positionen aldrig blir tom även om det är glapp mellan)
+
+Hur göra med tilldelning av färger? 
+
+- När en recension skapas så tilldelas den en färg. Den färgen följer sedan med som en prop i hela flödet, som kommer vara: 
+
+1. Representation på framsidan i form av BookCard -> onClick leder till Review - färg följer med och sätter bården
+
+Jag behöver jobba med datum för placering av korten. När ny recension kommer, flyttas de ned till en lista med 6st senaste rec. 
+
+En lista med alla BookCard-färger - ha koll på vilken färg som använts senast - välj nästföljande färg?
+
