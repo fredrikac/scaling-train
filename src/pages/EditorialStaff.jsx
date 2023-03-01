@@ -1,5 +1,4 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+
 
 //beskrivning av dagensbok i helhet
 //rendera alla members i en lista. När man klickar på dem så kommer man till varje medlems presentationssida?
@@ -7,7 +6,6 @@ import Footer from "../components/Footer";
 const EditorialStaff = () => {
   return (
     <>
-      <Header />
       <div className='container my-2 p-2'>
         <article className='row m-2'>
           <h1 className='title'>Redaktionen</h1>
@@ -73,7 +71,6 @@ const EditorialStaff = () => {
           </div>
         </article>
       </div>
-      <Footer />
     </>
   );
 };

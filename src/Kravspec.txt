@@ -9,14 +9,13 @@ Design
 - https://www.sketch.com/s/4ed7ffab-cfbc-4d66-b944-57d22b8c5c15
 
 
-URL för specifik recension: YYYY/MM//DD/titel
+URL för specifik recension: YYYY-MM-DD/titel
 URL för specifik recensent: /redaktionen/förnamn-efternamn
 
 
 //Att göra: 
-Skapa dummy-data och lägg i JSON-fil ELLER sätt upp redux och hämta placeholder-data. 
 
-Skapa pages för FAQ, Krönikor, Intervjuer och Arkivet. Krönikor och intervjuer bör kunna se ganska lika ut.
+Skapa pages för FAQ, Krönikor, Intervjuer och Arkivet. Krönikor och intervjuer bör kunna se ganska lika ut. Arkivet bör bara kunna vara en lång scroll av bookCards?
 
 Se över routing och se till så att alla recensioner får rätt url. 
 
@@ -24,13 +23,17 @@ Bryt isär startFeed i komponenter.
  - BookCard som OM det är dagens datum även visar lite text, ANNARS visar bara bild, titel, författare och recensent.
  Det kanske inte ska vara dagens datum, utan det datum som är närmast dagens (så att den positionen aldrig blir tom även om det är glapp mellan)
 
-Hur göra med tilldelning av färger? 
 
-- När en recension skapas så tilldelas den en färg. Den färgen följer sedan med som en prop i hela flödet, som kommer vara: 
+FÄRGER 
 
-1. Representation på framsidan i form av BookCard -> onClick leder till Review - färg följer med och sätter bården
+När en recension skapas så tilldelas den en färg. Den färgen följer sedan med som en prop i hela flödet, som kommer vara: 
 
+1. Representation på framsidan i form av BookCard -> onClick leder till Review - färg följer med och sätter bården.
+En lista med alla BookCard-färger - vid tilldelning behöver man kolla vilken färg som användes senast och välja nästa i listan. 
+Färgen skall sedan följa med så att samma recension har samma färg i hela sin livscykel. 
+
+DATUM
 Jag behöver jobba med datum för placering av korten. När ny recension kommer, flyttas de ned till en lista med 6st senaste rec. 
 
-En lista med alla BookCard-färger - ha koll på vilken färg som använts senast - välj nästföljande färg?
+
 

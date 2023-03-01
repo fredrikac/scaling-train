@@ -1,9 +1,14 @@
+import { useLocation } from "react-router-dom";
 import img from "../assets/9781250236210_200x_a-psalm-for-the-wild-built.jpeg";
 
 const Review = () => {
+  const location = useLocation();
+  const { color } = location.state;
+  console.log(color)
+
   return (
     <article>
-    <div className='bg-blue mb-4 ps-5'>
+    <div className={`${color} mb-4 ps-5`}>
       <div className='lh-2 p-3'>
         <p className='m-0 date'>DAGENS BOK 22 februari 2023</p>
         <h1 className='fs-4 title'>Titel</h1>
@@ -59,13 +64,13 @@ const Review = () => {
               <div className='col-md-12 d-flex flex-row'>
                   <div className='col-lg-8 col-md-6 col-sm-9 col text-end p-2'>
                     <p>Titel</p>
-                    <p >Författare</p>
+                    <p >Författare Efternamn</p>
                     <p>Årtal</p>
                     <p>Förlag</p>
                   </div>
 
                   <div className='col-lg-4 col-md-6 col-sm-3 col d-flex justify-content-center'>
-                    <img src={img} alt="Book cover" className='object-fit-contain img-fluid img-thumbnail shadow-sm m-0'/>
+                    <img src={img} alt="Book cover" className='object-fit-contain h-auto img-fluid img-thumbnail shadow-sm m-0'/>
                   </div>
               </div>
 
