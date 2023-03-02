@@ -7,14 +7,22 @@ const Review = () => {
   console.log(color)
 
   return (
-    <article>
-    <div className={`${color} mb-4 ps-5`}>
-      <div className='lh-2 p-3'>
-        <p className='m-0 date'>DAGENS BOK 22 februari 2023</p>
-        <h1 className='fs-4 title'>Titel</h1>
-        <h2 className='fs-6 sub-title'>av Författare</h2>
+    <article className="">
+      <div className="container-fluid ">
+        <div className="row">
+
+          <div className={`${color} mb-4 ps-5 d-flex flex-row`}>
+          <div className="col-lg-1.5 col-md-1 col-sm-1 col-xs-0">
+          </div>
+            <div className='lh-2 p-3 col-lg-10 col-md-6 col-sm-12 col-xs-12'>
+              <p className='m-0 date'>DAGENS BOK 22 februari 2023</p>
+              <h1 className='fs-4 title'>Titel</h1>
+              <h2 className='fs-6 sub-title'>av Författare</h2>
+            </div>
+
+          </div>
+        </div>
       </div>
-    </div>
 
     <div className='container'>
         <div className='row d-flex flex-row justify-content-center'>
@@ -75,9 +83,9 @@ const Review = () => {
               </div>
 
               <div className='col-12 py-2'>
-                <span className='d-flex flex-row justify-content-between bg-light border-top border-bottom py-2'><p>Utgiven</p><p>2022</p></span>
-                <span className='d-flex flex-row justify-content-between py-2'> <p>ISBN </p><p>9781250236210</p></span>
-                <span className='d-flex flex-row justify-content-between bg-light border-top border-bottom py-2'><p>Sidor</p><p>222</p></span>               
+                <span className='d-flex flex-row justify-content-between bg-light border-top border-bottom py-2 px-1'><p>Utgiven</p><p>2022</p></span>
+                <span className='d-flex flex-row justify-content-between py-2 px-1'> <p>ISBN </p><p>9781250236210</p></span>
+                <span className='d-flex flex-row justify-content-between bg-light border-top border-bottom py-2 px-1'><p>Sidor</p><p>222</p></span>               
               </div>
 
               <div className='col-12 p-2'>
@@ -93,9 +101,9 @@ const Review = () => {
               <div className='col-12 p-2 d-flex flex-column'>
                 <p className='border-bottom'>Etiketter</p>
                 <div className='d-flex flex-row flex-wrap justify-content-start'>
-                  <p className='bg-greige rounded mb-2 p-1 mx-1'>Skönlitteratur</p>
-                  <p className='bg-greige rounded mb-2 mx-1 p-1'>Science-fiction</p>
-                  <p className='bg-greige rounded mb-2 mx-1 p-1'>Spänning</p>
+                  <p className='bg-6 rounded mb-2 p-1 mx-1'>Skönlitteratur</p>
+                  <p className='bg-6 rounded mb-2 mx-1 p-1'>Science-fiction</p>
+                  <p className='bg-6 rounded mb-2 mx-1 p-1'>Spänning</p>
                 </div>
               </div>
             </div>
