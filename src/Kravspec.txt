@@ -21,7 +21,8 @@ Se över routing och se till så att alla recensioner får rätt url.
 
 Bryt isär startFeed i komponenter. 
  - BookCard som OM det är dagens datum även visar lite text, ANNARS visar bara bild, titel, författare och recensent.
- Det kanske inte ska vara dagens datum, utan det datum som är närmast dagens (så att den positionen aldrig blir tom även om det är glapp mellan)
+  Behöver ej bry mig om datum. Bara göra så att det är ett konstant antal recensioner som visas på start. När en recension tillkommer så hamnar den först.
+
 
 
 FÄRGER 
@@ -32,8 +33,8 @@ När en recension skapas så tilldelas den en färg. Den färgen följer sedan m
 En lista med alla BookCard-färger - vid tilldelning behöver man kolla vilken färg som användes senast och välja nästa i listan. 
 Färgen skall sedan följa med så att samma recension har samma färg i hela sin livscykel. 
 
-DATUM
-Jag behöver jobba med datum för placering av korten. När ny recension kommer, flyttas de ned till en lista med 6st senaste rec. 
+Start - hämtar data för de senaste 19 recensionerna. Knapp för att visa fler - trigga hämtning av ytterligare 6?
+
 
 
 

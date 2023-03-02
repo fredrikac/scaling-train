@@ -19,7 +19,6 @@ const Review = () => {
               <h1 className='fs-4 title'>Titel</h1>
               <h2 className='fs-6 sub-title'>av Författare</h2>
             </div>
-
           </div>
         </div>
       </div>

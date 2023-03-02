@@ -6,7 +6,7 @@ const BookCard = ({ title, author, body, reviewer, color}) => {
     
 
     return(
-        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 book-card">
         <div className={` ${color} d-flex flex-row align-items-start p-2 hs-book`}>
             <img src={placeholder} alt="Book cover" className='object-fit-contain h-100 mx-1 shadow-sm'/>
             <div className='col-4  w-auto d-flex flex-column justify-content-between mx-2 h-100'>

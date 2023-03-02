@@ -156,6 +156,13 @@ span {
     color: #4A4A4A;
 }
 
+.book-card:nth-child(6) {
+    margin-bottom: 6vh;
+}
+
+.book-card:nth-child(12){
+    margin-bottom: 6vh;
+}
 
 
 /*
